@@ -3,7 +3,7 @@ import os
 import sys
 
 env = SConscript("godot-cpp/SConstruct")
-
+env.ParseConfig('pkg-config --cflags --libs pdfio')
 # For reference:
 # - CCFLAGS are compilation flags shared between C and C++
 # - CFLAGS are for C-specific compilation flags

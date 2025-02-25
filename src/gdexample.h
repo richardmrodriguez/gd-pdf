@@ -3,6 +3,10 @@
 
 #include <godot_cpp/classes/sprite2d.hpp>
 
+#include <godot_cpp/core/class_db.hpp>
+#include <pdfio.h>
+#include <godot_cpp/variant/utility_functions.hpp>
+
 namespace godot {
 
     class GDExample : public Sprite2D {
@@ -10,7 +14,7 @@ namespace godot {
 
     private:
         double time_passed;
-
+        pdfio_file_t *pdf;
     protected: static void _bind_methods();
 
 

@@ -3,5 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://3wbu51b8e6ik" path="res://icon.svg" id="1_isyy8"]
 
 [node name="GDExample" type="GDExample"]
-position = Vector2(15.6084, 19.0194)
+position = Vector2(18.3139, 2.58979)
 texture = ExtResource("1_isyy8")
+
+[node name="GDExample" type="GDExample" parent="."]
+position = Vector2(18.3139, 2.58979)
+
+[node name="GDExample2" type="GDExample" parent="."]
+position = Vector2(18.3139, 2.58979)
