@@ -20,3 +20,5 @@ demo/bin/
 *.os
 *.so
 .sconsign.dblite
+demo/_testPDFs/*
+*.kate-swp
