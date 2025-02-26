@@ -2,12 +2,9 @@
 #define GDEXAMPLE_H
 
 #include <godot_cpp/classes/sprite2d.hpp>
-
-#include <godot_cpp/core/class_db.hpp>
 #include <pdfio.h>
+#include <godot_cpp/core/class_db.hpp>
 #include <godot_cpp/variant/utility_functions.hpp>
-#include <godot_cpp/variant/dictionary.hpp.>
-#include <godot_cpp/variant/string.hpp>
 #include <godot_cpp/variant/variant.hpp>
 
 namespace godot {
@@ -18,17 +15,14 @@ namespace godot {
     private:
         double time_passed;
         pdfio_file_t *pdf;
-    protected: static void _bind_methods();
 
+    protected: static void _bind_methods();
 
     public:
         GDExample();
         ~GDExample();
-
-
-
         void _process(double delta) override;
-
+        Variant testExportFunc();
     };
 }
 
