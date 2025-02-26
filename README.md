@@ -1,6 +1,9 @@
 # gd-pdf
 ## A simple wrapper for pdfio for use in the Godot 4.3 engine
 
+## --- STATUS - NONFUNCTIONAL ---
+### This is not working yet, many many many things to do.
+
 This wrapper is meant to add some basic PDF reading and parsing functionality to Godot. I have a specific, limited-scope use case for this. Therefore, this wrapper will not be exhaustive, and will simplify many things and exclude certain advanced features.
 
 The main goals of this are to:
