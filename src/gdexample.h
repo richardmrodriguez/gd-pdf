@@ -6,11 +6,14 @@
 #include <godot_cpp/core/class_db.hpp>
 #include <pdfio.h>
 #include <godot_cpp/variant/utility_functions.hpp>
+#include <godot_cpp/variant/dictionary.hpp.>
+#include <godot_cpp/variant/string.hpp>
+#include <godot_cpp/variant/variant.hpp>
 
 namespace godot {
 
     class GDExample : public Sprite2D {
-        GDCLASS(GDExample, Sprite2D)
+        GDCLASS(GDExample, Sprite2D);
 
     private:
         double time_passed;
@@ -21,6 +24,8 @@ namespace godot {
     public:
         GDExample();
         ~GDExample();
+
+
 
         void _process(double delta) override;
 
