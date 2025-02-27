@@ -4,6 +4,6 @@
 [ext_resource type="Script" path="res://gd_example.gd" id="2_et4st"]
 
 [node name="GDExample" type="GDExample"]
-position = Vector2(0.000174528, 0.778252)
+position = Vector2(17.0635, 8.04122)
 texture = ExtResource("1_isyy8")
 script = ExtResource("2_et4st")

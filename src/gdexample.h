@@ -23,6 +23,7 @@ namespace godot {
         ~GDExample();
         void _process(double delta) override;
         Variant testExportFunc();
+        Variant printRawPDFBytes(String filepath);
     };
 }
 

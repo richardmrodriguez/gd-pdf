@@ -5,3 +5,4 @@ extends GDExample
 func _ready() -> void:
 	var result = testExportFunc()
 	print(result)
+	#var pdfbytes_result = printRawPDFBytes("TestString")
